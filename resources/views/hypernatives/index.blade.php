@@ -9,10 +9,14 @@
 
 <body>
     <h1>Currently avaialable Hypernatives</h1>
+    <p>{{ $greeting }}</p>
     <ul>
 
         <li>
-            Hypernatives Here !
+            <a href="">{{ $hypernatives[0]['name'] }}</a>
+        </li>
+        <li>
+            <a href="">{{ $hypernatives[1]['name'] }}</a>
         </li>
     </ul>
 </body>
