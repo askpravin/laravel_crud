@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/hypernatives', function () {
+    return view('hypernatives.index');
 });

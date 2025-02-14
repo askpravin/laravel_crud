@@ -13,7 +13,7 @@
 <body>
     <h1>Welcome to Hypernets Networks</h1>
     <p>Click the button below to view list of hypernatives</p>
-    <a href="" class="btn">
+    <a href="/hypernatives" class="btn">
         Find Hypernatives!
     </a>
 </body>
